@@ -1,8 +1,5 @@
 <?php
 
-namespace factories;
-use ArrayAccess;
-use Exception;
 use exceptions\ResourceNotFound;
 
 class BankAccountFactory implements ArrayAccess

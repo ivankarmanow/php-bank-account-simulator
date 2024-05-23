@@ -78,7 +78,7 @@ function shutdown(FiniteStateMachine $fsm)
 }
 
 $fsm = new FiniteStateMachine();
-$factory = new \factories\BankAccountFactory();
+$factory = new \BankAccountFactory();
 $factory->register("Обычный счёт", \accounts\BankAccount::class);
 $factory->register("Дебетовый счёт", \accounts\CardBankAccount::class);
 $factory->register("Депозитный счёт", \accounts\DepositBankAccount::class);
